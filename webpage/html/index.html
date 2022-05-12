@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="My webpage is awesome check it out">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My simple webpage</title>
+</head>
+<style type="text/css">
+  body {
+    color: green;
+  }
+</style>
+
+<script>
+  function myFunction () {
+    var X = document.getElementById('fname');
+    X.value = X.value.toUpperCase();
+  }
+</script> 
+
+<body>
+  <p> This is a simple web page. </p>
+  <p> This javascript function capitalizes your name. </p>
+  <p> Enter your name <input type="text" id="fname" onchange="myFunction()"> </p>
+  <p>This is line 1. <br> This is line 2. &nbsp; &nbsp; &nbsp; This is line 3</p>
+
+  <h1>Header 1</h1>
+  <h2>Header 2</h2>
+  <h3> <font face="arial" size="24" color="red">Header 3</font> </h3>
+  <h4>Header 4</h4>
+
+  <p>
+    <em>Italic</em> <br>
+    <strong>Bold</strong> <br>
+    <u>Underline</u> <br>
+    <strike>Rule over</strike> <br>
+    <em><strong><u><strike>Italic, bold, underline and rule over</strike></u></strong></em>
+  </p>
+
+  <p>
+    <h3>Favorite Sports</h3>
+    <ul>
+      <li>Soccer</li>
+      <li>Tennis</li>
+      <li>Football</li>
+      <li>Basketball</li>
+    </ul>
+
+    <h3>Favorite Vacations</h3>
+    <ol>
+      <li>Mamin FL</li>
+      <li>Las Vagas LV</li>
+      <li>New York NY</li>
+      <li>Houston TX</li>
+    </ol>
+    
+    <a href="https://www.florida.com" target="_blank"><img src="FL.jpg" width="410" height="300"></a>
+    <a href="https://www.lasvagas.com" target="_blank"><img src="LV.jpg" width="410" height="300"></a>
+    <a href="https://www.newyork.com" target="_blank"><img src="NY.jpg" width="410" height="300"></a>
+    <a href="https://www.houston.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Houston_night.jpg" width="410" height="300"></a>
+  </p>
+  <video width="800" controls>
+    <source src="ya.mp4" type="video/mp4">
+    Your browser can not play this video.
+  </video>
+  <p>
+    <table width="600">
+      <tr>
+        <td>Sports</td>
+        <td>Result</td>
+      </tr>
+    </table>
+  </p>
+
+</body>
+
+</html>
